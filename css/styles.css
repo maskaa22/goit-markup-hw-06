@@ -43,10 +43,9 @@ a {
   color: #404bbf;
 }
 .header-list-item-link:active {
-  border-radius: 2px;
   border-color: #404bbf;
 }
-address {
+.address {
   font-style: normal;
 }
 
@@ -71,18 +70,25 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  cursor: pointer
 }
 .home-button:hover, .home-button:focus {
   background-color: #404bbf;
 }
 
+.team {
+  background-color: #F4F4FD;
+}
+.team-list {
+  background-color: #FFFFFF
+}
 .team-list-item-title,
 .team-list-item-text {
   text-align: center;
 }
 
 .portfolio-title,
-.team-title {
+.team-title, .advantaty-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
