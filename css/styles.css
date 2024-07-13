@@ -1,0 +1,136 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  height: 72px;
+}
+.header .logo,
+.footer .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.header .logo-span,
+.footer .logo-span {
+  color: #4d5ae5;
+}
+.header-list-item-link,
+.address-list-item-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-list-item-link {
+  color: #434455;
+}
+.header-list-item-link {
+  font-weight: 500;
+}
+.header-list-item-link:hover,
+.address-list-item-link:hover {
+  color: #404bbf;
+}
+.header-list-item-link:active {
+  border-radius: 2px;
+  border-color: #404bbf;
+  border-bottom: 4px solid;
+}
+
+.home,
+.footer {
+  height: 600px;
+  background-color: #2e2f42;
+}
+.home-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.home-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.home-button:hover {
+  background-color: #404bbf;
+}
+
+.team {
+  height: 732px;
+  background-color: #f4f4fd;
+}
+.team-list-item-img {
+  width: 264px;
+  height: 260px;
+}
+.team-list-item-title,
+.team-list-item-text {
+  text-align: center;
+}
+
+.portfolio-title,
+.team-title {
+  margin: 120px 0 72px 0;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.portfolio-list-item-img {
+  width: 360px;
+  height: 300px;
+}
+.portfolio-list-item-title,
+.team-list-item-title,
+.advantaty-list-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-list-item-text,
+.team-list-item-text,
+.advantaty-list-item-text,
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
+  height: 312px;
+}
+.footer .logo {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+}
