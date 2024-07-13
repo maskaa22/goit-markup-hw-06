@@ -1,10 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background-color: #fff;
   font-weight: 400;
-  margin: 0;
-  padding: 0;
 }
 ul {
   list-style-type: none;
@@ -14,9 +12,6 @@ a {
   color: #2e2f42;
 }
 
-.header {
-  height: 72px;
-}
 .header .logo,
 .footer .logo {
   font-family: "Raleway", sans-serif;
@@ -54,7 +49,6 @@ a {
 
 .home,
 .footer {
-  height: 600px;
   background-color: #2e2f42;
 }
 .home-title {
@@ -67,9 +61,6 @@ a {
 }
 .home-button {
   border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   font-weight: 500;
@@ -83,12 +74,7 @@ a {
 }
 
 .team {
-  height: 732px;
   background-color: #f4f4fd;
-}
-.team-list-item-img {
-  width: 264px;
-  height: 260px;
 }
 .team-list-item-title,
 .team-list-item-text {
@@ -97,16 +83,11 @@ a {
 
 .portfolio-title,
 .team-title {
-  margin: 120px 0 72px 0;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
-}
-.portfolio-list-item-img {
-  width: 360px;
-  height: 300px;
 }
 .portfolio-list-item-title,
 .team-list-item-title,
@@ -126,9 +107,6 @@ a {
   color: #434455;
 }
 
-.footer {
-  height: 312px;
-}
 .footer .logo {
   color: #f4f4fd;
 }
