@@ -17,13 +17,14 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 .header .logo-span,
 .footer .logo-span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .header-list-item-link,
 .address-list-item-link {
@@ -38,13 +39,15 @@ a {
   font-weight: 500;
 }
 .header-list-item-link:hover,
-.address-list-item-link:hover {
+.address-list-item-link:hover, .header-list-item-link:focus, .address-list-item-link:focus {
   color: #404bbf;
 }
 .header-list-item-link:active {
   border-radius: 2px;
   border-color: #404bbf;
-  border-bottom: 4px solid;
+}
+address {
+  font-style: normal;
 }
 
 .home,
@@ -54,7 +57,7 @@ a {
 .home-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -69,13 +72,10 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.home-button:hover {
+.home-button:hover, .home-button:focus {
   background-color: #404bbf;
 }
 
-.team {
-  background-color: #f4f4fd;
-}
 .team-list-item-title,
 .team-list-item-text {
   text-align: center;
@@ -85,9 +85,11 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list-item-title,
 .team-list-item-title,
