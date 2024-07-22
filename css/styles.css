@@ -27,16 +27,19 @@ a {
 }
 
 .container { 
-  max-width: 1128px;
-  /* padding-left:  
-  padding-right:   */
-  margin-left: 156px; 
-  margin-right:  156px;
+  width: 1158px;
+  margin: 0 auto;
   }
 
 .flex {
   display: flex;
   justify-content: space-between;
+}
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
+.nav{
+  align-items: center;
 }
 .header .logo,
 .footer .logo {
