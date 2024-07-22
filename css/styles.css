@@ -29,6 +29,7 @@ a {
 .container { 
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px
   }
 
 .flex {
@@ -52,7 +53,8 @@ a {
   color: #4d5ae5;
 }
 .header .logo {
-  padding: 24px 76px 24px 0;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 .header .logo-span,
 .footer .logo-span {
