@@ -137,6 +137,13 @@ a {
   background-color: #404bbf;
 }
 
+.advantaty-list {
+  gap: 24px;
+}
+.advantaty-list-item-title {
+  margin-bottom: 8px;
+}
+
 .team {
   background-color: #f4f4fd;
 }
@@ -158,6 +165,7 @@ a {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .portfolio-list-item-title,
 .team-list-item-title,
