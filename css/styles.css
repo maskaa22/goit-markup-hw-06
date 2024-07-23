@@ -137,8 +137,14 @@ a {
   background-color: #404bbf;
 }
 
+.advantaty-title {
+  visibility: hidden;
+}
 .advantaty-list {
   gap: 24px;
+}
+.advantaty-list-item {
+  width: calc((100% - 3 * 24px) / 4);
 }
 .advantaty-list-item-title {
   margin-bottom: 8px;
