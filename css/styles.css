@@ -36,6 +36,9 @@ a {
   display: flex;
   justify-content: space-between;
 }
+.flex-center {
+  justify-content: center;
+}
 .header {
   border-bottom: 1px solid #e7e9fc
 }
@@ -88,6 +91,12 @@ a {
   font-style: normal;
 }
 
+.section {
+  padding: 120px 0;
+}
+.home {
+  padding: 188px 0;
+}
 .home,
 .footer {
   background-color: #2e2f42;
@@ -107,7 +116,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  cursor: pointer
+  cursor: pointer;
+  margin-top: 48px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+padding: 16px 32px;
+height: 56px;
 }
 .home-button:hover, .home-button:focus {
   background-color: #404bbf;
