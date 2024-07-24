@@ -162,12 +162,22 @@ a {
 .team {
   background-color: #f4f4fd;
 }
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 .team-list-item {
   background-color: #ffffff;
 }
 .team-list-item-title,
 .team-list-item-text {
   text-align: center;
+}
+.team-list-item-title {
+  margin: 32px 0 8px 0;
+}
+.team-list-item-text {
+  margin-bottom: 32px;
 }
 
 .portfolio-title,
