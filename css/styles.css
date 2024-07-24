@@ -228,12 +228,15 @@ padding: 32px 16px;
 .footer {
   padding: 100px 0;
 }
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer .logo-span {
   color: #f4f4fd;
 }
 .footer-text {
   color: #f4f4fd;
-  margin-top: 8px;
   width: 264px;
 }
 
