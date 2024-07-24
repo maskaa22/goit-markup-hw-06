@@ -186,6 +186,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 .portfolio-conatiner{
   border-bottom: 1px solid #e7e9fc;
