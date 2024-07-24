@@ -175,13 +175,24 @@ a {
 .team-list-item-text {
   text-align: center;
 }
-.team-list-item-title {
+.team-list-item-title, .portfolio-list-item-title {
   margin-bottom: 8px;
 }
 .people-container {
   padding: 32px 0;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-conatiner{
+  border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+}
 .portfolio-title,
 .team-title,
 .advantaty-title {
