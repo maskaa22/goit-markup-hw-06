@@ -340,6 +340,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.footer .social-links {
+  gap: 16px;
+}
 
 
 .home-button:hover,
@@ -356,4 +359,7 @@ a {
 }
 .portfolio-list-item:hover .animation .overlay {
   transform: translateY(0);
+}
+.footer .social-link-item .link:hover {
+  background-color: #31d0aa;
 }
