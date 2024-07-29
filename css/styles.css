@@ -317,6 +317,10 @@ a {
 }
 .footer .flex {
   justify-content: start;
+  align-items: baseline
+}
+.footer-info {
+  margin-right: 120px
 }
 .footer .logo {
   display: inline-block;
@@ -330,12 +334,13 @@ a {
   width: 264px;
 }
 .social-title {
-  color: #f4f4fd;
+  color: #FFFFFF;
   margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.footer .social {
-  margin-left: 120px;
-}
+
 
 .home-button:hover,
 .home-button:focus {
