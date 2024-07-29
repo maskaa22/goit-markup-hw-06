@@ -360,6 +360,7 @@ a {
 .portfolio-list-item:hover .animation .overlay {
   transform: translateY(0);
 }
-.footer .social-link-item .link:hover {
+.footer .social-link-item .link:hover,
+.footer .social-link-item .link:focus {
   background-color: #31d0aa;
 }
