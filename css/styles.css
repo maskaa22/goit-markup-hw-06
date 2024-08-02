@@ -395,18 +395,18 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
 
-  opacity: 0;
-  pointer-events: none;
+  /* opacity: 0;
+  pointer-events: none; */
 }
 .modal {
   background-color: #fff;
   width: 408px;
   height: 584px;
 }
-.modal-overlay.is-open {
+/* .modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
-}
+} */
 .modal-container {
   padding: 24px;
 
