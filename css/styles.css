@@ -366,6 +366,7 @@ background-color: transparent;
 line-height: 2;
 letter-spacing: 0.04em;
 color: #fff;
+padding-left: 16px;
 }
 .footer .subscribe-button {
   border-radius: 4px;
@@ -380,6 +381,12 @@ letter-spacing: 0.04em;
 text-align: center;
 color: #fff;
 cursor: pointer;
+display: flex;
+gap: 16px;
+}
+.subscribe .form {
+  display: flex;
+  gap: 24px;
 }
 
 .modal-overlay {
@@ -403,10 +410,10 @@ cursor: pointer;
   width: 408px;
   height: 584px;
 }
-/* .modal-overlay.is-open {
+.modal-overlay.is-open {
   opacity: 1;
   pointer-events: auto;
-} */
+}
 .modal-container {
   padding: 24px;
 
