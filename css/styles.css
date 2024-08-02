@@ -438,7 +438,6 @@ align-items: center;
   border-radius: 50%;
   background-color: #E7E9FC;
   border: none;
-  /* float: right; */
   position: absolute;
   top: 24px;
   right: 24px;
@@ -449,6 +448,12 @@ align-items: center;
   padding: 0; 
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.icon-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-close:hover, .icon-close:focus {
+  fill: #ffffff
 }
 .modal-title {
   font-weight: 500;
@@ -536,6 +541,11 @@ display: block;
 margin: 0 auto;
 }
 
+
+.close:hover, .close:focus {
+  background-color: #404bbf;
+  border: none;
+}
 .home-button:hover,
 .home-button:focus {
   background-color: #404bbf;
