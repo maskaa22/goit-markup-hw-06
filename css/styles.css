@@ -455,6 +455,9 @@ align-items: center;
 .close:hover .icon-close,  .close:focus .icon-close{
   fill: #ffffff
 }
+.form-container {
+  margin-bottom: 8px;
+}
 .modal-title {
   font-weight: 500;
 font-size: 16px;
@@ -467,11 +470,12 @@ margin-bottom: 16px;
 }
 .modal-label {
   font-size: 12px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
 margin-bottom: 4px;
 position: relative;
+display: block;
 }
 .modal-input {
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -535,7 +539,7 @@ margin-bottom: 16px;
 .input-checkbox:checked .modal-accept-checkbox {
   border: none;
   fill: #F4F4FD;
-  
+
 }
 .modal-privacy-policy {
   line-height: 1.33333;
