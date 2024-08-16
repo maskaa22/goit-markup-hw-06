@@ -544,10 +544,8 @@ margin-bottom: 16px;
   justify-content: center;
   fill: transparent; 
 }
-/* .input-checkbox:checked {
-  background-color: #404bbf;
-} */
-.input-checkbox:checked .modal-accept-checkbox {
+
+.visually-hidden:checked + .modal-accept-label .modal-accept-checkbox {
   border: none;
   fill: #F4F4FD;
   background-color: #404bbf;
